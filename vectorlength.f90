@@ -20,7 +20,7 @@ norm = dsqrt(abs(c))
 end subroutine normvec
 
 
-!！！！！！！！！！！！！！！！！！！！！example1 real
+!------------------------example1 real
 !program example
 !implicit none
 !
@@ -37,7 +37,7 @@ end subroutine normvec
 
 
 
-!！！！！！！！！！！！！！！！！！！！！！！example2 complex
+!----------------------example2 complex
 program example2
 implicit none
 
