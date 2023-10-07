@@ -20,7 +20,7 @@ enddo
 
 end subroutine innerproduct
 
-!！！！！！！！！！！！！！！！！！！！！！！example1:real vector
+!-----------------------------example1:real vector
 !program example1
 !implicit none
 !
@@ -36,7 +36,7 @@ end subroutine innerproduct
 !
 !end program
 
-
+!----------------------------example2:complex
 program example2
 implicit none
 
