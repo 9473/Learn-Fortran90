@@ -8,12 +8,13 @@
 4. 打开终端，进入目标文件夹: cd desktop; cd code
 5. 显示到code文件夹之后输入ls查看该文件夹目录
 6. 输入gfortran filename.f90 -o runfilename进行编译
-7. 输入./runfilename进行运行  
-一些指令：
-查看gfortran是否安装成功：
-gfortran --version
-查看gfortran的安装目录：
-which gfortran
+7. 输入./runfilename进行运行
+  
+一些指令：  
+查看gfortran是否安装成功：  
+gfortran --version  
+查看gfortran的安装目录：  
+which gfortran  
 在该网站的安装教程中，通常只需要两步，xcode-select --install安装命令行工具，brew -install gcc就OK了，当然作为小白的我不知道brew这一步和我到官网下载gfortran是不是重复步骤。 只需要这两步就可以了，这两步是默认了先前已经安装xcode和homebrew  
 如果需要更新命令行工具（有时候这个会出现问题），需要先删除再重装，[见这个网站](https://stackoverflow.com/questions/34617452/how-to-update-xcode-from-command-line)  
 一般来说就可以在终端编译和运行了。
